@@ -1,4 +1,10 @@
-﻿function scan() {
+document.getElementById("cameraTakePicture").addEventListener
+   ("click", cameraTakePicture);
+
+
+
+
+function cameraTakePicture() {
     cordova.plugins.barcodeScanner.scan(
         function (result) {
             alert("We got a barcode\n" +
