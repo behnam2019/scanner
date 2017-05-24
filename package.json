@@ -1,0 +1,23 @@
+{
+    "name": "BlankCordovaApp1",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "cordova-plugin-camera": "2.4.1",
+        "cordova-plugin-media-capture": "1.4.3",
+        "cordova-plugin-whitelist": "1",
+        "phonegap-plugin-barcodescanner": "https://github.com/phonegap/phonegap-plugin-barcodescanner",
+        "cordova-plugin-compat": "1.1.0",
+        "cordova-plugin-file": "4.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-camera": {},
+            "cordova-plugin-media-capture": {},
+            "cordova-plugin-whitelist": {},
+            "phonegap-plugin-barcodescanner": {},
+            "cordova-plugin-compat": {},
+            "cordova-plugin-file": {}
+        }
+    }
+}
